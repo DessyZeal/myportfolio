@@ -1,0 +1,19 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productbody{
+    background-color: hsl(0 0% 100%);
+    height: 70%;
+    width: 50%;
+    border-radius: 10px;
+}
+img{
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
