@@ -63,13 +63,26 @@ img{
     letter-spacing: 1px;
     color: hsl(0 0% 100%);
 }
-.github{
+.button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    background-color: hsl(0 0% 20%);
+    color: white;
+    text-decoration: none; /* Remove default link underline */
+    /* border: none; */
+    border-radius: 13px;
+    cursor: pointer;
+    width: 80%;
+    height: 11%;
+    margin-left: 10%;
+}
+/* .github{
     width: 80%;
     height: 11%;
     background-color: hsl(0 0% 20%);
     border-radius: 13px;
     margin-left: 10%;
-}
+} */
 .linkedin{
 width: 80%;
 height: 11%;
