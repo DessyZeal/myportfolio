@@ -64,31 +64,31 @@ img{
     color: hsl(0 0% 100%);
 }
 .button {
-    display: inline-block;
-    /* padding: 10px 20px; */
     background-color: hsl(0 0% 20%);
     color: white;
-    text-decoration: none; /* Remove default link underline */
-    /* border: none; */
+    text-decoration: none;
     border-radius: 13px;
     cursor: pointer;
     width: 80%;
     height: 11%;
     margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-/* .github{
-    width: 80%;
-    height: 11%;
-    background-color: hsl(0 0% 20%);
-    border-radius: 13px;
-    margin-left: 10%;
-} */
 .linkedin{
 width: 80%;
 height: 11%;
 background-color: hsl(0 0% 20%);
 border-radius: 13px;
 margin-left: 10%;
+color: white;
+text-decoration: none;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-top: 15px;
 }
 .instagram{
 width: 80%;
